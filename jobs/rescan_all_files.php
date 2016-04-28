@@ -25,7 +25,7 @@ class RescanAllFiles extends QueueableJob
 
     public function start(ZendQueue $q)
     {
-    	$list = new \Concrete\Core\File\FileList();
+    	$list = new FileList();
     	$this->files = $list->getResults();
 
     	foreach ($this->files as $f)
