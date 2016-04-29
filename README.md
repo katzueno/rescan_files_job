@@ -2,7 +2,9 @@
 
 This is a very simple concrete5 Job package to rescan the entire files in the file manager
 
-When you change the setting of the thumbnail type or create a new one, you have to rescan the entire files in the file manager to regenrate the image thumbnail. It's really troublesome to go through the file manager every step. Therefore, I've created this super simple automated job for concrete5 to rescan all files in filem manager to regenerate the thumbnails. However, if the image(s) are too large, the server may run out of memory. Please be careful.
+When you change the setting of the thumbnail type or create a new one, you have to rescan the entire files in the file manager to regenrate the image thumbnail. It's really troublesome to go through the file manager every step. Therefore, I've created this super simple automated job for concrete5 to rescan all files in filem manager to regenerate the thumbnails.
+
+However, if the image(s) are too large, the server may run out of memory. Please be careful.
 
 ## Instrction
 
@@ -19,8 +21,7 @@ When you change the setting of the thumbnail type or create a new one, you have 
 
 ## Credit
 
-@katzueno
-concrete5, japan, Inc.
+- @katzueno (concrete5, japan, Inc.)
 
 concrete5 Japan, Inc. is helping various company's concrete5 project. Please feel free to contact us at any time for your project needs. We can work internationally.
 
@@ -30,7 +31,9 @@ http://concrete5.co.jp/
 
 これは、 concrete5 のファイルマネージャーのサムネイルを一括で再生成するためのジョブです。
 
-concrete5 のサムネイルタイプを追加したり、修正したりすると、サムネイルをすべて再生成する必要がありますが、ファイルマネーからちまちま実行するのは時間が書かkるので、ジョブとして一括で実行できるよう、スクリプトを作成しました。ただし、サーバーによっては処理しきれず、メモリーオーバーになる可能性がございます。
+concrete5 のサムネイルタイプを追加したり、修正したりすると、サムネイルをすべて再生成する必要がありますが、ファイルマネージャーからちまちま実行するのは時間がかかるので、ジョブとして一括で実行できるよう、スクリプトを作成しました。
+
+サーバーによっては処理しきれず、メモリーオーバーになる可能性がございます。
 
 ## 手順
 
@@ -47,8 +50,7 @@ concrete5 のサムネイルタイプを追加したり、修正したりする�
 
 ## クレジット
 
-@katzueno
-concrete5, japan, Inc.
+- @katzueno (concrete5, japan, Inc.)
 
 コンクリートファイブジャパン株式会社では、企業・団体様の concrete5 サイト制作や制作会社様のプロジェクトのサポートを行っています。
 http://concrete5.co.jp/
