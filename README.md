@@ -6,7 +6,7 @@ When you change the setting of the thumbnail type or create a new one, you have 
 
 However, if the image(s) are too large, the server may run out of memory. Please be careful.
 
-## Instrction
+## Instruction
 
 1. Download zip files from this GitHub, or the Marketplace (in the future).
 2. Unzip the file.
