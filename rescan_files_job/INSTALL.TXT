@@ -1,0 +1,8 @@
+# Installation Instructions
+
+1. Upload and unzip this ‘package’ to your site's ‘packages/directory’.
+2. Login to your site as an administrator.
+3. Click on the ‘Dashboard’ icon, top right of page.
+4. Click the ‘Extend concrete5’ link in open sidebar.
+5. Find this package in the list of packages ‘Awaiting Installation’.
+6. Click the ’install’ button.
