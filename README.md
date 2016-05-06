@@ -12,7 +12,7 @@ This add-on may be useless for the most of concrete5 users. But when you need it
 ## How to Install
 
 1. Download zip files from the GitHub, or the check it out from Marketplace. (in the future).
-    1. GitHub or download zip file from the marketplace
+    1. Download zip file from the marketplace or GitHub
         1. Download & unzip the zip file
         2. Make sure that folder name is *rescan_files_job*
         3. Upload the folder under the packages folder of concrete5.
@@ -44,6 +44,8 @@ https://github.com/katzueno/rescan_files_job/
 concrete5 Japan, Inc. is helping various company's concrete5 project. Please feel free to contact us at any time for your project needs. We can work internationally.
 
 http://concrete5.co.jp/
+
+- DJ Kazu (icon design)
 
 
 # Rescan All Files 日本語解説
@@ -91,3 +93,5 @@ https://github.com/katzueno/rescan_files_job/
 コンクリートファイブジャパン株式会社では、企業・団体様の concrete5 サイト制作や制作会社様のプロジェクトのサポートを行っています。
 
 http://concrete5.co.jp/
+
+- DJ Kazu (アイコンデザイン)
