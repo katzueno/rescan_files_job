@@ -11,7 +11,7 @@ class Controller extends Package
 {
     protected $pkgHandle = "rescan_files_job";
     protected $appVersionRequired = '5.7.4.2';
-    protected $pkgVersion = '0.1.0';
+    protected $pkgVersion = '0.1.1';
     protected $pkgAutoloaderMapCoreExtensions = true;
     
     public function getPackageDescription()
