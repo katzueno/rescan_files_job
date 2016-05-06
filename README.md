@@ -9,12 +9,12 @@ However, if the image(s) are too large, the server may run out of memory. Please
 ## How to Install
 
 1. Download zip files from the GitHub, or the check it out from Marketplace. (in the future).
-    a. GitHub or download zip file from the marketplace
+    1. GitHub or download zip file from the marketplace
         1. Download & unzip the zip file
         2. Make sure that folder name is *rescan_files_job*
         3. Upload the folder under the packages folder of concrete5.
         4. Log on to concrete5 site as admin who can install packages.
-    b. From Marketplace
+    2. From Marketplace
         1. Log on to concrete5 site as admin who can install packages
         2. Connect your site to the marketplace if you haven't done so by going to *Dashboard* - *Extend concrete5* menu.
         3. Visit concrete5 Marketplace and check out this add-on and assign your concrete5 site.
@@ -54,12 +54,12 @@ concrete5 のサムネイルタイプを追加したり、修正したりする�
 ## インストール方法
 
 1. GitHub やマーケットプレイから ZIP ファイルをダウンロードするか、マーケットプレイスからインストール
-    a. GitHub か concrete5 マーケットプレイスからZIPファイルをダウンロードする方法
+    1. GitHub か concrete5 マーケットプレイスからZIPファイルをダウンロードする方法
         1. ZIP ファイルを GitHub か、concrete5 Marketplace からダウンロードし解凍する。
         2. フォルダ名が「**rescan_files_job**」にきちんとなっているか確認。
         3. そのフォルダごと、concrete5 の packages フォルダの中にアップロード。
         4. パッケージをインストールできる権限を持ったユーザーで concrete5 にログイン。
-    b. マーケットプレイスから
+    2. マーケットプレイスから
         1. 自分のサイトにパッケージがインストールできるユーザーとしてログイン。
         2. まだ Marketplace に接続していなければ、「*管理画面*」-「*concrete5 を拡張*」メニューからサイトを concrete5 マーケットプレイスに接続。
         3. concrete5 のマーケットプレイスページに訪問して、このアドオンをチェックアウトし、登録したサイトにアサイン (assign) する。
@@ -68,9 +68,9 @@ concrete5 のサムネイルタイプを追加したり、修正したりする�
 
 ## 使い方
 
-8.[管理画面] - [システムと設定] - [最適化] - [自動実行ジョブ] ページヘ
-9. リストの中から「**Rescan All Files**」を探して、「**実行**」ボタンを押す。
-10. しばらく待って、サムネイル再生成完了を待ちます。
+1.[管理画面] - [システムと設定] - [最適化] - [自動実行ジョブ] ページヘ
+2. リストの中から「**Rescan All Files**」を探して、「**実行**」ボタンを押す。
+3. しばらく待って、サムネイル再生成完了を待ちます。
 
 ## GitHub & オープンソース
 
