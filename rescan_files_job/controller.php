@@ -5,6 +5,8 @@ use Concrete\Core\Package\Package;
 use Core;
 use Job;
 
+defined('C5_EXECUTE') or die(_("Access Denied."));
+
 class Controller extends Package
 {
     protected $pkgHandle = "rescan_files_job";

@@ -7,6 +7,8 @@ use \ZendQueue\Message as ZendQueueMessage;
 use File;
 use FileList;
 
+defined('C5_EXECUTE') or die(_("Access Denied."));
+
 class RescanAllFiles extends QueueableJob
 {
 	public $jSupportsQueue = true;
