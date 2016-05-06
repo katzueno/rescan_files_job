@@ -6,6 +6,9 @@ When you change the setting of the thumbnail type or create a new one, you have 
 
 However, if the image(s) are too large, the server may run out of memory. Please be careful.
 
+This add-on may be useless for the most of concrete5 users. But when you need it, you really need it to save your time. it's also a good practice to learn how automated job works, too.
+
+
 ## How to Install
 
 1. Download zip files from the GitHub, or the check it out from Marketplace. (in the future).
@@ -30,6 +33,7 @@ However, if the image(s) are too large, the server may run out of memory. Please
 ## GitHub & Open Source
 
 This project is on GitHub. This package is released under MIT License.
+
 https://github.com/katzueno/rescan_files_job/
 
 
@@ -49,6 +53,8 @@ http://concrete5.co.jp/
 concrete5 のサムネイルタイプを追加したり、修正したりすると、サムネイルをすべて再生成する必要がありますが、ファイルマネージャーからちまちま実行するのは時間がかかるので、ジョブとして一括で実行できるよう、スクリプトを作成しました。
 
 サーバーによっては処理しきれず、メモリーオーバーになる可能性がございます。
+
+このアドオンは、ほとんどの concrete5 ユーザーにとって無意味なアドオンですが、必要になったら時間がすごく節約できるアドオンです。また自動実行ジョブの仕組みを覚えるのにも役に立つと思います。
 
 
 ## インストール方法
@@ -76,9 +82,12 @@ concrete5 のサムネイルタイプを追加したり、修正したりする�
 
 このパッケージは GitHub でも公開しています。ライセンスは MIT です。
 
+https://github.com/katzueno/rescan_files_job/
+
 ## クレジット
 
 - @katzueno (concrete5, japan, Inc.)
 
 コンクリートファイブジャパン株式会社では、企業・団体様の concrete5 サイト制作や制作会社様のプロジェクトのサポートを行っています。
+
 http://concrete5.co.jp/
