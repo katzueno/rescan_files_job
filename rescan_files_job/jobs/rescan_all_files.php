@@ -7,7 +7,7 @@ use \ZendQueue\Message as ZendQueueMessage;
 use File;
 use FileList;
 
-class rescan_all_files extends QueueableJob
+class RescanAllFiles extends QueueableJob
 {
 	public $jSupportsQueue = true;
 	
