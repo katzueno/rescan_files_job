@@ -9,7 +9,7 @@ class controller extends Package
 {
     protected $pkgHandle = 'rescan_files_job';
     protected $appVersionRequired = '5.7.4.2';
-    protected $pkgVersion = '0.1.3';
+    protected $pkgVersion = '0.1.4';
     protected $pkgAutoloaderMapCoreExtensions = true;
 
     public function getPackageDescription()
