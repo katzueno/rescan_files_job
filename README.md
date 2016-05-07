@@ -1,17 +1,17 @@
-# Rescan All Files, a concrete5 tiny cron program
+# Rescan All Files, a concrete5 job to regenerate thumbnails
 
-This is a very simple concrete5 Job package to rescan the entire files in the file manager
+This is a very simple concrete5 Job package to rescan all files in the file manager
 
-When you change the setting of the thumbnail type or create a new one, you have to rescan the entire files in the file manager to regenrate the image thumbnail. It's really troublesome to go through the file manager every step. Therefore, I've created this super simple automated job for concrete5 to rescan all files in filem manager to regenerate the thumbnails.
+When you change the setting of the thumbnail type or create a new one, you have to rescan all files in the file manager to regenrate the image thumbnail. It's really troublesome to go through the file manager every step. Therefore, I've created this super simple automated job for concrete5 to rescan all files in file m manager to regenerate the thumbnails.
 
 However, if the image(s) are too large, the server may run out of memory. Please be careful.
 
-This add-on may be useless for the most of concrete5 users. But when you need it, you really need it to save your time. it's also a good practice to learn how automated job works, too.
+This add-on may be useless for the most concrete5 users. But when you need it, you really need it to save your time. it's also a good practice to learn how automated job works, too.
 
 
 ## How to Install
 
-1. Download zip files from the GitHub, or the check it out from Marketplace. (in the future).
+1. Download zip files from GitHub, or the check it out from Marketplace. (in the future).
     1. Download zip file from the marketplace or GitHub
         1. Download & unzip the zip file
         2. Make sure that folder name is *rescan_files_job*
@@ -41,7 +41,7 @@ https://github.com/katzueno/rescan_files_job/
 
 - @katzueno (concrete5, japan, Inc.)
 
-concrete5 Japan, Inc. is helping various company's concrete5 project. Please feel free to contact us at any time for your project needs. We can work internationally.
+concrete5 Japan, Inc. has been helping a number concrete5 projects. Please feel free to contact us at any time for your project needs. We can work internationally.
 
 http://concrete5.co.jp/
 

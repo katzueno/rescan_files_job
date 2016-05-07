@@ -7,9 +7,7 @@ use \ZendQueue\Message as ZendQueueMessage;
 use File;
 use FileList;
 
-defined('C5_EXECUTE') or die(_("Access Denied."));
-
-class RescanAllFiles extends QueueableJob
+class rescan_all_files extends QueueableJob
 {
 	public $jSupportsQueue = true;
 	
@@ -28,9 +26,9 @@ class RescanAllFiles extends QueueableJob
     public function start(ZendQueue $q)
     {
     	$list = new FileList();
-    	$this->files = $list->getResults();
+    	$files = $list->executeGetResults();
 
-    	foreach ($this->files as $f)
+    	foreach ($files as $f)
     	{
     		$fID = $f->getFileID();
     		$q->send($fID);
@@ -52,13 +50,14 @@ class RescanAllFiles extends QueueableJob
     		}
         } catch (\Concrete\Flysystem\FileNotFoundException $e)
         {
-            $errorMessage .= t('File %s could not be found.', $fv->getFilename()) . '<br/>';
+            $errorMessage = t('File %s could not be found.', $fv->getFilename()) . '<br/>';
+            $e->add($errorMessage);
         }
     }
 
 
     public function finish(ZendQueue $q)
     {
-    	return t('All file processed');
+    	return t('All files have been processed.');
     }
 }
