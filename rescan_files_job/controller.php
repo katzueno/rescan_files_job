@@ -1,11 +1,10 @@
 <?php
-
 namespace Concrete\Package\RescanFilesJob;
 
 use Concrete\Core\Package\Package;
 use Job;
 
-class controller extends Package
+class Controller extends Package
 {
     protected $pkgHandle = 'rescan_files_job';
     protected $appVersionRequired = '5.7.4.2';
