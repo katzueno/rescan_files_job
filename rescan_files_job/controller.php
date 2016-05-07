@@ -1,17 +1,17 @@
 <?php
+
 namespace Concrete\Package\RescanFilesJob;
 
 use Concrete\Core\Package\Package;
-use Core;
 use Job;
 
 class controller extends Package
 {
-    protected $pkgHandle = "rescan_files_job";
+    protected $pkgHandle = 'rescan_files_job';
     protected $appVersionRequired = '5.7.4.2';
     protected $pkgVersion = '0.1.3';
     protected $pkgAutoloaderMapCoreExtensions = true;
-    
+
     public function getPackageDescription()
     {
         return t('Rescan all files in the file manager');
@@ -19,7 +19,7 @@ class controller extends Package
 
     public function getPackageName()
     {
-        return t("Rescan All Files");
+        return t('Rescan All Files');
     }
 
     public function install()
@@ -32,7 +32,7 @@ class controller extends Package
         $pkg = parent::upgrade();
         $this->installJobs($pkg);
     }
-    
+
     protected function installJobs($pkg)
     {
         $jobHandle = 'rescan_all_files';
@@ -40,6 +40,5 @@ class controller extends Package
         if (!is_object($job)) {
             Job::installByPackage($jobHandle, $pkg);
         }
-        
     }
 }
