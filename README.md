@@ -2,11 +2,11 @@
 
 This is a very simple concrete5 Job package to rescan all files in the file manager
 
-When you change the setting of the thumbnail type or create a new one, you have to rescan all files in the file manager to regenrate the image thumbnail. It's really troublesome to go through the file manager every step. Therefore, I've created this super simple automated job for concrete5 to rescan all files in file m manager to regenerate the thumbnails.
+When you change the setting of the thumbnail type or create a new one, you have to rescan all files in the file manager to regenrate image thumbnails. It's really troublesome to go through the file manager to rescan every file. Therefore, I've created this super simple automated job for concrete5 to rescan all files in file manager to regenerate the thumbnails.
 
 However, if the image(s) are too large, the server may run out of memory. Please be careful.
 
-This add-on may be useless for the most concrete5 users. But when you need it, you really need it to save your time. it's also a good practice to learn how automated job works, too.
+This add-on may be useless for the most concrete5 users. But when you need it, you *really* need it to save your time. it's also a good practice to learn how automated job works, too.
 
 
 ## How to Install
@@ -22,7 +22,7 @@ This add-on may be useless for the most concrete5 users. But when you need it, y
         2. Connect your site to the marketplace if you haven't done so by going to *Dashboard* - *Extend concrete5* menu.
         3. Visit concrete5 Marketplace and check out this add-on and assign your concrete5 site.
 2. Go to *Dashboard*, and then *Extend concrete5*
-3. Find **Rescan All Files** package in the list, and install.
+3. Find **Rescan All Files** package in the list, and install it.
 
 ## How to Run
 
