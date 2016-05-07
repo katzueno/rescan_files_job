@@ -41,11 +41,15 @@ class RescanAllFiles extends QueueableJob
             $f = File::getbyID($msg->body);
             if (is_object($f)) {
                 $fv = $f->getApprovedVersion();
-                if (is_object($fv)) {
+                if (is_object($fv))
+                {
                     $fv->refreshAttributes();
+                } else
+                {
+                    throw new Exception(t('Error occurred while getting the file version object of fID: %s', $msg->body));
                 }
             } else {
-                throw new Exception(t('Error occured while processing fID: %s', $msg->body));
+                throw new Exception(t('Error occurred while getting the file object of fID: %s', $msg->body));
             }
         } catch (Exception $e) {
             return false;
